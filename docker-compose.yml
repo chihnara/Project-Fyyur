@@ -1,0 +1,14 @@
+# docker-compose to run a postgres instance for db connection
+version: '2'
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: 'postgres'
+
+volumes:
+  database_data:
+    driver: local
