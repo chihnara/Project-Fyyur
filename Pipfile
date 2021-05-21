@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dateutil = "==2.6.0"
+Babel = "==2.9.0"
+Flask-Moment = "==0.11.0"
+Flask-WTF = "==0.14.3"
+Flask-SQLAlchemy = "==2.4.4"
+Flask-Migrate = "==3.0.0"
+Flask = "~=2.0.0"
+WTForms = "~=2.3.3"
+SQLAlchemy = "~=1.4.15"
+psycopg2 = "*"
+psycopg2-binary = "*"
+black = "==19.10b0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
