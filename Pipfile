@@ -14,8 +14,9 @@ Flask = "~=2.0.0"
 WTForms = "~=2.3.3"
 SQLAlchemy = "~=1.4.15"
 psycopg2 = "*"
-psycopg2-binary = "*"
+psycopg2-binary = "==2.8.5"
 black = "==19.10b0"
+autopep8 = "*"
 
 [dev-packages]
 
